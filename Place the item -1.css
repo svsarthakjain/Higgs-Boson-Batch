@@ -1,0 +1,30 @@
+.holder {
+    /* Write css here */    
+     display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+        .item {
+            width: 100px;
+            height: 100px;
+            font-size: 3rem;           
+
+        }
+
+        .item-1 {
+            background: red;
+            margin-left: 0;
+
+        }
+
+        .item-2 {
+            background: blue;
+
+        }
+
+        .item-3 {
+            background: green;
+            margin-right: 0;
+
+        }
